@@ -1,7 +1,11 @@
 #!/bin/bash
 # Variables del Juego
-
 game=0 #number of the actual game
+
+# Colores 
+red="\0033[0;31m"
+
+
 while :
     do
     word=""
@@ -20,18 +24,20 @@ while :
     echo $word > hword
     hword=$( cat hword | tr 'a-zA-ZñÑá-úÁ-Ú' '-' )
     rm already
+    rm hword2
 
     # Partida
     while :
         do
         clear
         echo ""
-        echo "Game $game"
+        echo -e "$red Game: $game" 
         echo ""
         cat Pictures/$errors
-        echo "Word: $word"
+        # echo "Word: $word"
         echo "Word: $hword"
         echo "Already said: $aletters"	   
+        
         if [[ $errors = 7 ]];
             then 
                 echo "Game Over"
@@ -39,13 +45,23 @@ while :
                 break
         fi
 
+        if [[ $resultado = $hword ]];
+            then 
+                echo "WINNER WINNER, CHICKEN DINNER"
+                sleep 5s
+                break
+        fi
         read -p "Choose a letter: " letter 
         echo  "$letter " >> already
+    
         if [[ $word =~ $letter ]];
             then 
                 echo "This letter is correct"
-                hword=$( cat hword | tr -c "$letter" "-" )
-                echo $hword >> hword2
+                echo  "$letter" >> hword2
+                hword2=$( cat hword2 ) 
+                hword=$( cat hword | tr -c "$hword2" "-" )
+                echo $hword > resultado
+                resultado=$( cat resultado | grep -v "-" )
             else
                 echo "This letter is incorrect"
                 errors=$(( errors+1 ))
