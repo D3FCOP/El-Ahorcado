@@ -1,6 +1,7 @@
 # El Ahorcado
 ## **En fase de desarrollo**
 --EDIT 1--
+
 Este juego lo estoy creando ahora y seguramente tenga algunos errores que iré solucionando con el tiempo
 
 Tengo pensado añadirle al juego un par de opciones con elección de idioma, nivel de dificultad y cualquier otra que se me ocurra.
