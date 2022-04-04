@@ -31,7 +31,7 @@ while :
         do
         clear
         echo ""
-        echo -e "$red Game: $game" 
+        echo -e "Game: $game" 
         echo ""
         cat Pictures/$errors
         # echo "Word: $word"
