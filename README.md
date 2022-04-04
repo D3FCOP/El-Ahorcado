@@ -1,6 +1,7 @@
 # El Ahorcado
 ## **En fase de desarrollo**
 --EDIT 1--
+
 Este juego lo estoy creando ahora y seguramente tenga algunos errores que iré solucionando con el tiempo
 
 Tengo pensado añadirle al juego un par de opciones con elección de idioma, nivel de dificultad y cualquier otra que se me ocurra.
@@ -17,6 +18,7 @@ Estoy mul ilusionado por este proyecto el cual he tenido antibajos, a veces iba 
 En unos días vuelvo a hacer un comunicado.
 
 --EDIT 3--
+
 Los ajustes ya están termianados, el menu principal falta que sea funcional con las partidas y algunas comprobaciones para ver si todo funciona correctamente.
 Por lo demás el reto que tenía haciendo este juego esta cumplido y lo dejaré aquí para jugar con el y para el recuerdo.
 
