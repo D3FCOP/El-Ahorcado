@@ -15,3 +15,9 @@ Bueno el juego porfin está terminado, faltan algunos ajustes que iré retocando
 Estoy mul ilusionado por este proyecto el cual he tenido antibajos, a veces iba rápido con el código y ha habido momentos en los que me he tirado incluso 2 días sin tocarlo para pensarlo friamente. 
 
 En unos días vuelvo a hacer un comunicado.
+
+--EDIT 3--
+Los ajustes ya están termianados, el menu principal falta que sea funcional con las partidas y algunas comprobaciones para ver si todo funciona correctamente.
+Por lo demás el reto que tenía haciendo este juego esta cumplido y lo dejaré aquí para jugar con el y para el recuerdo.
+
+Ahora mi siguiente objetivo sería hacer un generador de contraseñas avanzado, para no estar todo el día haciendo juegos, y después de este reto iré a hacer el famoso juego de las palabras diarias "Wordle". Tengo muchas ganas de empezar con ese proyecto pero se que me va a llevar horas al igual que este.
