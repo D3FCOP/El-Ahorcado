@@ -56,6 +56,8 @@ Para empezar con su utilización simplemente descomprimir la carpeta en el lugar
 
 > chmod u+x ./game.sh
 
+Una vez hecho esto, los scripts funcionarán correctamente.
+
 El menu principal de este es muy intuitivo, tiene un apartado de configuración en el que se podrá en un futuro cambiar el nivel de dificultad y el idioma. Esta funcionalidad todavía no está disponible así que aunque se cambie el idioma y la dificultad todo sigue de la misma forma. Proximamente haré una actualización integrando esto.
 
 Y nada más, a disfrutar!!
