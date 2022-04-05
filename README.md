@@ -52,8 +52,8 @@ Estoy ya haciendo una lista de mis proximos proyectos y en unos días por, no de
 ## Instrucciones de uso
 
 Para empezar con su utilización simplemente descomprimir la carpeta en el lugar que queramos, escribir los siguientes comandos para darle permisos a los 2 scripts de la carpeta:
-[!NOTE] chmod u+x ./hangman.sh
-[!NOTE] chmod u+x ./game.sh
+> chmod u+x ./hangman.sh
+> chmod u+x ./game.sh
 
 El menu principal de este es muy intuitivo, tiene un apartado de configuración en el que se podrá en un futuro cambiar el nivel de dificultad y el idioma. Esta funcionalidad todavía no está disponible así que aunque se cambie el idioma y la dificultad todo sigue de la misma forma. Proximamente haré una actualización integrando esto.
 
